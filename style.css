@@ -1,0 +1,22 @@
+#grid {
+    display: grid;
+    height: 100px;
+    grid-template-rows: 30px 1fr;
+    grid-template-rows: 3ch auto minmax(10px, 60px);
+    padding: 7%;
+  }
+  
+  #areaA {
+    background-color: lime;
+    grid-template-rows: 3ch auto minmax(10px, 60px);
+    border-radius: 2px solid #9797;
+    box-shadow: 30px 30px 30px ;
+
+  }
+  
+  #areaB {
+    background-color: yellow;
+    grid-template-rows: 3ch auto minmax(10px, 60px);
+  }
+
+  
